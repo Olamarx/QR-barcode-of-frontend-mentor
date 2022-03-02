@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+    *{
+      border: 0;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .attribution {
+      font-size: 20px;
+      text-align: center;
+      
+      }
+    .attribution a { 
+      color: hsl(228, 45%, 44%); 
+      text-decoration: none;
+     }
+    
+    
+    .container{
+      background-color: hsl(220, 15%, 55%);
+      height: 1000px;
+      width: 100%;
+      padding-top: 100px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .col-container{
+      background-color: white;
+      height: 800px;
+      width: 500px;
+      border-radius: 15px;
+      display: block;
+      text-align: center;
+      padding-top: 10px;
+      
+    }
+
+    .col-container img{
+      height: 460px;
+      border-radius: 10px;
+    }
+
+    h1{
+      text-align: center;
+      padding: 40px 30px 30px 30px;
+      font-size: 35px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    p{
+      text-align: center;
+      padding: 0px 40px 40px 40px;
+      font-size: 20px;
+    }
+
+
+
+    @media only screen and (max-width: 375px) {
+     .col-container{
+      background-color: white;
+      height: 600px;
+      width: 300px;
+      border-radius: 15px;
+      display: block;
+      text-align: center;
+      padding-top: 10px;
+    } 
+
+    .col-container img{
+      height: 260px;
+      border-radius: 10px;
+    }
+
+    h1{
+      padding: 10px;
+      font-size: 25px;
+    }
+
+    p{
+      font-size: 20px;
+      padding: 10px 30px 20px 30px;
+    }
+
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="col-container">
+<img src="./images/image-qr-code.png" alt="QR barcode">
+<h1>Improve your front-end skills by building projects</h1>
+<p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+<div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 
+ <br> Coded by <a href="#">Olamarx</a>    
+</div>
+  </div>
+  </div>
+</body>
+</html>
